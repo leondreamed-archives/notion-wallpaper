@@ -1,0 +1,16 @@
+{
+	"extends": "@leonzalion/tsconfig/tsconfig.json",
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"outDir": "dist",
+		"baseUrl": ".",
+		"paths": {
+			"~/*": [
+				"./src/*"
+			],
+		}
+	},
+	"include": [
+		"./src"
+	]
+}
