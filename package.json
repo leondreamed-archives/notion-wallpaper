@@ -46,6 +46,7 @@
 		"dayjs": "^1.10.7",
 		"dotenv": "^10.0.0",
 		"puppeteer": "^13.0.0",
-		"readline-sync": "^1.4.10"
+		"readline-sync": "^1.4.10",
+		"wallpaper": "^6.0.0"
 	}
 }

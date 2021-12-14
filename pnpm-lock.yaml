@@ -26,6 +26,7 @@ specifiers:
   ts-node: ^10.4.0
   tsc-alias: ^1.4.2
   typescript: ^4.5.2
+  wallpaper: ^6.0.0
 
 dependencies:
   '@notionhq/client': 0.4.9
@@ -33,6 +34,7 @@ dependencies:
   dotenv: 10.0.0
   puppeteer: 13.0.0
   readline-sync: 1.4.10
+  wallpaper: 6.0.0
 
 devDependencies:
   '@commitlint/cli': 15.0.0
@@ -5131,6 +5133,11 @@ packages:
     dependencies:
       makeerror: 1.0.12
     dev: true
+
+  /wallpaper/6.0.0:
+    resolution: {integrity: sha512-UPHzpKOpBS9Yt1Oji9m1VwMCJgMp79dRrtYWURyAqcNUTInwv9AGVsAW/3kW7i2u4a9ZgjiN4fw0ZlF8K9ekBA==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dev: false
 
   /webidl-conversions/3.0.1:
     resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}

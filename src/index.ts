@@ -6,6 +6,7 @@ import timezone from 'dayjs/plugin/timezone.js';
 import puppeteer, { Protocol } from 'puppeteer';
 import readlineSync from 'readline-sync';
 import fs from 'fs';
+import { setWallpaper } from 'wallpaper';
 
 dayjs.extend(utc);
 dayjs.extend(timezone);
@@ -73,5 +74,7 @@ const calendarBlockId = '4802aa93bdd64dc8aaf6d48fa2d76ca7';
 	});
 	await browser.close();
 
-	console.log('Screenshot taken!');
+	console.info('Setting wallpaper...');
+	await setWallpaper('notion-page.png');
+	console.info('Wallpaper set!');
 })();
