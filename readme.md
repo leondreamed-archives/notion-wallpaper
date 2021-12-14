@@ -1,1 +1,3 @@
-# notion-wallpaper
+# Notion Wallpaper
+
+Still in development.
